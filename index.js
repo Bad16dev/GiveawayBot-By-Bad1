@@ -44,3 +44,7 @@ client.on('ready', () => {///////////Bad - بدرو
   client.user.setStatus("online");///////////Bad - بدرو
     client.user.setActivity("");///////////Bad - بدرو
 });///////////Bad - بدرو
+
+
+
+client.login(process.env.token);
